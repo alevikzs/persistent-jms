@@ -13,7 +13,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=7.0",
-    "jms/serializer": "^1.9",
+    "jms/serializer-bundle": "^2.0",
     "doctrine/orm": "^2.5.11"
   },
   "autoload": {
