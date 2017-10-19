@@ -1,0 +1,24 @@
+{
+  "name": "alevikzs/persistent-jms",
+  "description": "JMS array collection handler for symfony doctrine persistent collection support",
+  "keywords": ["php", "symfony", "doctrine", "jms", "array collection", "persistent collection"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Novikov",
+      "email": "alekseeey@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "jms/serializer": "^1.9",
+    "doctrine/orm": "^2.5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "PersistentJMS\\": "src"
+    }
+  }
+}
