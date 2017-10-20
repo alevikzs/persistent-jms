@@ -1,7 +1,7 @@
 {
   "name": "alevikzs/persistent-jms",
   "description": "JMS array collection handler for symfony doctrine persistent collection support",
-  "keywords": ["php", "symfony", "doctrine", "jms", "array collection", "persistent collection"],
+  "keywords": ["php", "symfony", "doctrine", "jms serializer", "array collection", "persistent collection"],
   "type": "library",
   "license": "MIT",
   "authors": [

@@ -31,6 +31,10 @@ class ArrayCollectionHandler implements SubscribingHandlerInterface {
      */
     private $initializeExcluded = true;
 
+    /**
+     * ArrayCollectionHandler constructor.
+     * @param bool $initializeExcluded
+     */
     public function __construct($initializeExcluded = true) {
         $this->initializeExcluded = $initializeExcluded;
 

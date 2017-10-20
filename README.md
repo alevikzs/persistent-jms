@@ -1,5 +1,7 @@
 ## Persistent JMS
-JMS array collection handler for symfony doctrine persistent collection support.
+#### What is it?
+This package is based on [JMS Serializer](https://github.com/schmittjoh/serializer) and resolve symfony doctrine persistent collection support problem. 
+When you use deserialization, original library is not support cascade and orphanRemoval relations functionality.
 #### How to use
 In your symfony services.yml config need to add:
 ```
